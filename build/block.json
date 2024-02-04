@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/testimonalcard",
+  "version": "0.1.0",
+  "title": "Testimonal Card",
+  "category": "widgets",
+  "icon": "id",
+  "description": "my testimonal card as solution to a wpchallenge.com challenge",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "quote": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "job": {
+      "type": "string"
+    }
+  },
+  "textdomain": "testimonalcard",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
