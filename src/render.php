@@ -6,8 +6,6 @@
 
 <?php
 
-print_r($attributes); 
-
 $quote = "" ;
 $name = "" ; 
 $job = "";  
