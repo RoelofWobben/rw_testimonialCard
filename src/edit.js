@@ -64,7 +64,7 @@ export default function Edit( { attributes, setAttributes } ) {
 					/>
 				</PanelBody>
 			</InspectorControls>
-			<div { ...useBlockProps() } className="card-container">
+			<div { ...useBlockProps( { className: 'card-container' } ) }>
 				<figure className="snip1192">
 					<blockquote>{ quote } </blockquote>
 					<div className="author">
